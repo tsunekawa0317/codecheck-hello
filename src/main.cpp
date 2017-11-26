@@ -1,14 +1,14 @@
 #include <iostream>
 #include <stdio.h>
-using namespace std;
+//using namespace std;
 
 int main(int argc, char *argv[])
 {
   // start from 1 to ignore script name; argv[0] will be a name of processing file.
-  printf("How many characters did you input?");
+  //printf("How many characters did you input?");
   scanf("%d",&argc);
 
-  printf("Enter a word, prefering 'World', '織田信長', or 'codecheck'.");
+  //printf("Enter a word, prefering 'World', '織田信長', or 'codecheck'.");
   for(int i=1;i<argc+1;i++){
     scanf("%s",&argv[i]);
   }
