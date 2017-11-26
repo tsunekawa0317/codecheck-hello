@@ -26,14 +26,14 @@ int main(int argc, char *argv[])
     }
     printf("!");
   }
-  else if((argv[1]="c") && (argv[2]=="o") && (argv[3]=="d") && (argv[4]=="e") && (argv[5]=="c") && (argv[6]=="h") && (argv[7]=="e") && (argv[8]=="c") && (argv[9]=="k")){
+  else if((argv[1]=="c") && (argv[2]=="o") && (argv[3]=="d") && (argv[4]=="e") && (argv[5]=="c") && (argv[6]=="h") && (argv[7]=="e") && (argv[8]=="c") && (argv[9]=="k")){
     printf("Hello ");
     for(int i=1;i<argc+1;i++){
       printf("%s",argv[i]);
     }
     printf("!");
   }
-  else if(argv[]==NULL){
+  else if(argv[1]==NULL){
     printf("Hello!");
   }
   
